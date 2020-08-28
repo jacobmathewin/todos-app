@@ -6,10 +6,10 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faCoffee, faCheck, faCheckSquare, faTrash } from '@fortawesome/free-solid-svg-icons'
+import { faTimesCircle, faCheck, faCheckSquare, faTrash } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-library.add(faCoffee, faCheck, faCheckSquare, faTrash)
+library.add(faTimesCircle, faCheck, faCheckSquare, faTrash)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.config.productionTip = false

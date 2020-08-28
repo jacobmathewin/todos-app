@@ -19,7 +19,7 @@
                     @keyup="$emit('search-item', $event.target.value)" />
                 <button type="button"
                     class="btn btn-outline-secondary ml-2 col-xs-1"
-                    @click="resetSearch">x</button>
+                    @click="resetSearch"><font-awesome-icon icon="times-circle" /></button>
             </b-navbar-nav>
 
         </b-collapse>
