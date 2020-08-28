@@ -36,8 +36,10 @@
         },
         methods: {
             resetSearch() {
-                this.searchKey='';
-                this.$emit('reset-search');
+                if(this.searchKey) {
+                    this.searchKey='';
+                    this.$emit('reset-search');
+                }
             }
         }
     }
